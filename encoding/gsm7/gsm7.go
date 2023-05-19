@@ -8,7 +8,7 @@ package gsm7
 import (
 	"fmt"
 
-	"github.com/warthog618/sms/encoding/gsm7/charset"
+	"github.com/shifty21/sms/encoding/gsm7/charset"
 )
 
 const (

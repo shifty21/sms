@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/shifty21/sms"
+	"github.com/shifty21/sms/encoding/tpdu"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/warthog618/sms"
-	"github.com/warthog618/sms/encoding/tpdu"
 )
 
 func TestNewCollector(t *testing.T) {

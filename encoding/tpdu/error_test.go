@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/warthog618/sms/encoding/tpdu"
+	"github.com/shifty21/sms/encoding/tpdu"
 )
 
 type decodeTestPattern struct {

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/shifty21/sms/encoding/gsm7/charset"
 	"github.com/stretchr/testify/assert"
-	"github.com/warthog618/sms/encoding/gsm7/charset"
 )
 
 type testPattern struct {

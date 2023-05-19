@@ -8,11 +8,11 @@ import (
 	"encoding/hex"
 	"testing"
 
+	"github.com/shifty21/sms/encoding/pdumode"
+	"github.com/shifty21/sms/encoding/semioctet"
+	"github.com/shifty21/sms/encoding/tpdu"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/warthog618/sms/encoding/pdumode"
-	"github.com/warthog618/sms/encoding/semioctet"
-	"github.com/warthog618/sms/encoding/tpdu"
 )
 
 type testPattern struct {

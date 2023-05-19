@@ -7,10 +7,10 @@ package sms_test
 import (
 	"testing"
 
+	"github.com/shifty21/sms"
+	"github.com/shifty21/sms/encoding/gsm7/charset"
+	"github.com/shifty21/sms/encoding/tpdu"
 	"github.com/stretchr/testify/assert"
-	"github.com/warthog618/sms"
-	"github.com/warthog618/sms/encoding/gsm7/charset"
-	"github.com/warthog618/sms/encoding/tpdu"
 )
 
 var twoSegmentMsg = []byte("this is a very long message that does not fit in a single SMS message, at least it will if I keep adding more to it as 160 characters is more than you might think")

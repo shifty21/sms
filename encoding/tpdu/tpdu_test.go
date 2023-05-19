@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/shifty21/sms/encoding/bcd"
+	"github.com/shifty21/sms/encoding/semioctet"
+	"github.com/shifty21/sms/encoding/tpdu"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/warthog618/sms/encoding/bcd"
-	"github.com/warthog618/sms/encoding/semioctet"
-	"github.com/warthog618/sms/encoding/tpdu"
 )
 
 type BadOption struct {

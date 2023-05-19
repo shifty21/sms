@@ -8,8 +8,8 @@ import (
 	"encoding/hex"
 	"testing"
 
+	"github.com/shifty21/sms/encoding/tpdu"
 	"github.com/stretchr/testify/assert"
-	"github.com/warthog618/sms/encoding/tpdu"
 )
 
 func TestDecode(t *testing.T) {

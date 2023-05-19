@@ -13,7 +13,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/warthog618/sms"
+	"github.com/shifty21/sms"
 )
 
 func main() {

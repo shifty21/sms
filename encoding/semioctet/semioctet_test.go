@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/shifty21/sms/encoding/semioctet"
 	"github.com/stretchr/testify/assert"
-	"github.com/warthog618/sms/encoding/semioctet"
 )
 
 func TestDecode(t *testing.T) {

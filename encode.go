@@ -7,7 +7,7 @@ package sms
 import (
 	"sync/atomic"
 
-	"github.com/warthog618/sms/encoding/tpdu"
+	"github.com/shifty21/sms/encoding/tpdu"
 )
 
 // Encode builds a set of TPDUs containing the message.
